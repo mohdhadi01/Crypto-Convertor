@@ -38,12 +38,14 @@ function Convertor(props) {
     return (
         <>
             <main>
-
+                <div className="background"></div>
                 <Card
                     className='Card'
                     title={<h1><DollarOutlined /> Crypto Convertor</h1>}
                     bordered={false}
                     style={{
+                        boxShadow:"2px 4px 14px 3px  rgb(95, 94, 94)",
+                        // backgroundColor:"blue",
                         width: 500,
                     }}
                 >
@@ -85,7 +87,6 @@ function Convertor(props) {
                     </div>
                     <h2>{inputvalue} {Select1} = {resultValue} {Select2}</h2>
                 </Card>
-
             </main>
         </>
     )
