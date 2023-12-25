@@ -2,9 +2,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 242, 240);
+  
+}
+.background{
+  background: url("https://img.freepik.com/free-vector/gradient-cryptocurrency-concept_23-2149215736.jpg?w=1060&t=st=1703506347~exp=1703506947~hmac=94c53bdac29741c4de3f6293067e3adc1aeea05f9cdbefd8d5a53ab5023090c1");
+  filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
 }
 main {
+  /* position: relative; */
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -17,5 +27,16 @@ main {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
   align-items: center;
+}
+.ant-card-body{
+  background-color: rgb(255, 255, 255);
+}
+h1{
+  padding: 10px;
+}
+.ant-select-selection-item{
+  background-color: white ;
+  color: rgb(95, 94, 94);
 }
